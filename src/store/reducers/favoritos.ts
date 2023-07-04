@@ -25,6 +25,7 @@ const favoritosSlice = createSlice({
       } else {
         state.itens.push(produto)
       }
+      console.log(state.itens)
     }
   }
 })
